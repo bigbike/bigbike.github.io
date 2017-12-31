@@ -1,0 +1,76 @@
+/* Yili Zhao @ USC since 2009 */
+/* Fight on Trojans! */
+
+
+body 
+{ 
+  margin: 0px; 
+  padding: 0px;
+  text-align: justify; 
+  font-family: Calibri, "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; 
+  color: black; 
+  background-color: white; 
+}
+
+table 
+{
+  border: 0; 
+  /*margin: 20px 20px 0px 30px;*/
+  margin: 0px;
+  border-collapse: separate;
+  border-spacing: 0px; 
+  background-color: white; 
+}
+
+p.introduction
+{
+    /*font: 12px/20px Verdana, sans-serif;*/
+    font: 13px/21px Verdana, sans-serif;
+    background-color: white;
+    margin: 20px 20px 0px 0px; 
+    color: black;
+}
+
+p.personal
+{
+    /*font: 12px/20px Verdana, sans-serif;*/
+    font: 13px/21px Verdana, sans-serif;
+    background-color: white;
+    margin: 20px 20px 0px 0px; 
+    color: black;
+}
+
+h1
+{
+  margin: 20px 0px 0px 0px; 
+  font-family: Helvetica, sans-serif;
+  font-size: 150%; 
+  line-height: 28px; 
+  font-weight: 900; 
+  color: #444444;
+}
+
+td.publication
+{
+   font: 13px/21px Verdana, sans-serif;
+   /*font: 12px/20px Verdana, sans-serif;*/
+   background-color: white;
+   margin: 1ex 16%; 
+   color: black;
+}
+h2
+{
+  margin: 20px 0px 10px 0px; 
+  font-family: Helvetica, sans-serif;
+  font-size: 130%; 
+  line-height: 28px; 
+  font-weight: 900; 
+  color: #444444;
+}
+
+#mainbody
+{ 
+   margin-left: auto; 
+   margin-right: auto;  
+   width: 900px;
+}

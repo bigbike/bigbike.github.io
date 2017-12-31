@@ -1,0 +1,81 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Strict//EN"
+                      "http://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+  
+	<head>
+	<meta http-equiv="Content-Language" content="en-us">
+  <link rel=StyleSheet Type="text/css" href="yili.css">
+  <title>Yili's Photos</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  
+  <SCRIPT LANGUAGE="JavaScript"> 
+ 
+<!-- the following JavaScript code I copied from Prof. Fredo Durand-->
+<!-- Here is his homepage: http://people.csail.mit.edu/fredo/  -->
+<!-- Specially for Prof. Fredo Durand: -->
+<!-- It is my honor to have you visiting my homepage. If you find it is unproper to copy -->
+<!-- the following code from your page please let me know via yilizhao@usc.edu -->
+<!-- I will take it out from this page. Thanks.-->
+
+// Set up the image files to be used.
+var theImages = new Array() // do not change this
+// To add more image files, continue with the
+// pattern below, adding to the array.
+ 
+theImages[0] = 'photos/Yili.jpg'
+theImages[1] = 'photos/pkuContest051008.jpg'
+theImages[2] = 'photos/usc_1st_pho.jpg'
+theImages[3] = 'photos/lab_usc.jpg'
+theImages[4] = 'photos/uStudio1.jpg'
+theImages[5] = 'photos/uStudio2.jpg'
+theImages[6] = 'photos/uStudio3.jpg'
+theImages[7] = 'photos/uStudio4.jpg'
+theImages[8] = 'photos/uStudio5.jpg'
+theImages[9] = 'photos/panda.jpg'
+theImages[10] = 'photos/olympic.jpg'
+theImages[11] = 'photos/pku1.jpg'
+theImages[12] = 'photos/huanlegu1.jpg'
+theImages[13] = 'photos/huanlegu2.jpg'
+theImages[14] = 'photos/huanlegu3.jpg'
+theImages[15] = 'photos/huanlegu4.jpg'
+theImages[16] = 'photos/pku4.jpg'
+theImages[17] = 'photos/SIGGRAPH-1.jpg'
+theImages[18] = 'photos/SIGGRAPH-2.jpg'
+theImages[19] = 'photos/SIGGRAPH-3.jpg'
+theImages[20] = 'photos/christmas2013.jpg'
+theImages[21] = 'photos/cs-resort-2013-1.jpg'
+theImages[22] = 'photos/cs-resort-2013-2.jpg'
+theImages[23] = 'photos/cs-resort-2013-3.jpg'
+theImages[24] = 'photos/disneyland-1.jpg'
+ 
+ 
+// do not edit anything below this line
+ 
+var j = 0
+var p = theImages.length;
+var preBuffer = new Array()
+for (i = 0; i < p; i++){
+   preBuffer[i] = new Image()
+   preBuffer[i].src = theImages[i]
+}
+var whichImage = Math.floor(Math.random()*(p));
+function showImage(){
+document.write('<img align="center" src="'+theImages[whichImage]+'">');
+}
+
+//  End -->
+</script>
+</head>
+
+<body>
+<div align="center">
+        <script LANGUAGE="JavaScript"> 
+          showImage();
+        </script>
+        <br>Please refresh the page to see more. :)
+</div>
+<noscript>
+</body>
+</html>
